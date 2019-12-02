@@ -3,7 +3,7 @@ layout: post
 title: "Second order optimization methods on deep learning"
 ---
 
-Stochastic gradieng (SG) methods are currently the major optimization method being used for deep learning because of the simplicity and efficiency. However, the method is sometimes sensitive to parameters and their tuning can be a painful process. To alleviate the above issues, we study the Newton's method for training Deep Neural Networks (DNN).
+Stochastic gradieng (SG) methods are currently the major optimization method being used for deep learning because of the simplicity and efficiency. However, the method is sometimes sensitive to parameters and their tuning can be a painful process. To alleviate the above issues, we study the Newton's method for training Deep Neural Networks (DNN), which can not only diminish the need for hyper-parameter tuning but also emjoy the benefit of fast convergence for convex functions.
 
 We have developed a [toolkit](https://github.com/cjlin1/simpleNN) in Tensorflow and MATLAB for DNNs using Newton-CG methods. For the core operation of Gauss-Newton matrix-vector products, I use Tensorflow's vector-Jacobian products. See implementation details in this [document](/assets/pdf/Calculating_Gauss_Newton_Matrix_Vector_product_by_Vector_Jacobian_Products.pdf).
 

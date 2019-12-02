@@ -9,4 +9,4 @@ I mainly focus on region-based object detection frameworks (i.e. Faster-RCNN) wh
 ![Decouple ROI modules](/assets/images/module.png)*Decouple ROI modules*
 {: refdef}
 
-Codes are available at [Github](https://github.com/quanpr/decouple-roi-pooling). Experiment details are summarized in the [report](/assets/pdf/2019-3-20-Decouple-ROI-pooling-for-object-detection.md).
+Codes are available at [Github](https://github.com/quanpr/decouple-roi-pooling). Experiment details are summarized in the [report](/assets/pdf/CS_260_group_project_report.pdf).

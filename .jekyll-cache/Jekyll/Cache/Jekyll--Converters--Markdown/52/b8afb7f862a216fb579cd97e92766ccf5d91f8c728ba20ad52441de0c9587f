@@ -1,0 +1,4 @@
+I"<p>Stochastic gradieng (SG) methods are currently the major optimization method being used for deep learning because of the simplicity and efficiency. However, the method is sometimes sensitive to parameters and their tuning can be a painful process. To alleviate the above issues, we study the Newton’s method for training Deep Neural Networks (DNN).</p>
+
+<p>We have developed a toolkit in Tensorflow and MATLAB for DNNs using Newton-CG methods. In this project, I mainly responsible for Tensorflow implementation. For the core operation of Gauss-Newton matrix-vector products, I use Tensorflow’s vector-Jacobian products. See implementation details in this <a href="/assets/pdf/Calculating_Gauss_Newton_Matrix_Vector_product_by_Vector_Jacobian_Products.pdf">document</a>.</p>
+:ET

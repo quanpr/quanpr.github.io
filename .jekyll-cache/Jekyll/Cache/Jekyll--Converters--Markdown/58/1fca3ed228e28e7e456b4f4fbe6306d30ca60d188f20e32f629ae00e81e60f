@@ -1,6 +1,0 @@
-I"I<p>I mainly focus on region-based object detection frameworks (i.e. Faster-RCNN) which are composed of proposal modules on top of feature extraction modules and make detections. Based on the work of current region-based CNN detection, I introduced an approach to enhance the adaptive receptive capability of CNN, namely decouple ROI pooling. The module can enable the network to select the best receptive field to improve its classification accuracy without sacrificing its ability of bounding box regression.</p>
-
-<p><img src="/assets/images/module.png" alt="Decouple ROI modules" /><em>image_caption</em></p>
-
-<p>Codes are available at <a href="https://github.com/quanpr/decouple-roi-pooling">Github</a>. Experiment details are summarized in the <a href="/assets/pdf/2019-3-20-Decouple-ROI-pooling-for-object-detection.md">report</a>.</p>
-:ET

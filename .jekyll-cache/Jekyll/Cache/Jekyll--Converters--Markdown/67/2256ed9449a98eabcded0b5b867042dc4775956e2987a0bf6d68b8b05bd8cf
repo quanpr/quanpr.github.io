@@ -1,2 +1,0 @@
-I"<p>I mainly focus on region-based object detection frameworks which are composed of network proposal module on top of feature extraction modules and make detections according to the proposal regions. Based on the work of current region-based CNN detection, I introduced an approach to enhance the adaptive receptive capability of CNN, namely decouple ROI pooling. The module can enable the network to select the best receptive field to improve its classification accuracy without sacrificing its ability of bounding box regression.</p>
-:ET

@@ -1,0 +1,2 @@
+I"<p>I mainly inverstigate different second-order optimization methods in DNN in a stochastic manner, including Trust-region Method (TR) and (adaptive) Cubic Reg- ularization (CR), and compared their convergence rate, generalization error and computation efficiency with SGD.</p>
+:ET

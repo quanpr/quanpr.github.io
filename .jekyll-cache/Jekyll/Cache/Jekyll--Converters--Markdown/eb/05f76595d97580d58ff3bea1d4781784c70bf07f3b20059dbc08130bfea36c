@@ -1,0 +1,11 @@
+I"á<p>I mainly inverstigate different second-order optimization methods in DNN in a stochastic manner, including Trust-region Method (TR) and (adaptive) Cubic Reg- ularization (CR), and compared their convergence rate, generalization error and computation efficiency with SGD.</p>
+
+<p style="text-align: center;"><img src="/assets/images/loss-srelu-resnet.png" alt="Training loss of SReLU-ResNet" /><em>Training loss of SReLU-ResNet</em></p>
+
+<p style="text-align: center;"><img src="/assets/images/accu-srelu-resnet.png" alt="Test accuracy of SReLU-ResNet" /><em>Test accuracy of SReLU-ResNet</em></p>
+
+<p>I use the gradient based solver to solve each the inner optimization problems for both TR and CR problem. The method can effectively converge to a local minimum that has similar performance as SGD. However the overhead in each step is significant. I also compared LBFGS and Newton-CG methods in the project. The inferior performance may be caused by the noisy estimation of Hessian term.</p>
+
+<p>Codes are available at <a href="https://github.com/quanpr/Second-order-method-for-Deep-Neural-Network.">Github</a>. Experiment details are summarized in the <a href="/assets/pdf/ECE_236C_course_project_report_805227042_Pengrui.pdf">report</a>.</p>
+
+:ET

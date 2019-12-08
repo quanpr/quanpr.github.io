@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Practical implementations of Newton's method on Deep Neural Network"
+title: "Practical implementations of Newton's method on Deep Neural Network (on progress)"
 ---
 
 Stochastic gradieng (SG) methods are currently the major optimization method being used for deep learning because of the simplicity and efficiency. However, the method is sometimes sensitive to parameters and their tuning can be a painful process. To alleviate the above issues, we study the Newton's method for training Deep Neural Networks (DNN), which can not only diminish the need for hyper-parameter tuning but also emjoy the benefit of fast convergence for convex functions.

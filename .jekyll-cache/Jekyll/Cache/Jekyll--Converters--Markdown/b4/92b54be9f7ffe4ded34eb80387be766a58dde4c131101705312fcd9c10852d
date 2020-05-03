@@ -1,9 +1,0 @@
-I"x<p>Existing GenAttack is a state-of-the-art methods on fooling deep learning based image classifier in black-box setting. However, it still requires probability after softmax layer for adversarial samples selection. In this work, we extend the GenAttack to hard-label case. With an appropriate amount of queries to the TOP-1 class label, the GenAttack can attack the Inception based image classifier on ImageNet.</p>
-
-<p style="text-align: center;"><img src="/assets/images/compared.png" alt="Fooling the image classifier by classifying squirrel as parking meter" /> 
-<em>Fooling the image classifier by classifying squirrel as parking meter</em></p>
-
-<p style="text-align: center;"><img src="/assets/images/hard-label.png" alt="Fooling the image classifier by classifying squirrel as parking meter" /> 
-<em>Fooling the image classifier by classifying squirrel as parking meter</em></p>
-
-:ET

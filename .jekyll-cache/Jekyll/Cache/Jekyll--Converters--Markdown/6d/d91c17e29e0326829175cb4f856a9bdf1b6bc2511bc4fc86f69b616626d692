@@ -1,2 +1,0 @@
-I"<p>Existing GenAttack is a state-of-the-art methods on fooling deep learning based image classifier in black-box setting. However, it still requires probability after softmax layer for adversarial samples selection. In this work, we extend the GenAttack to hard-label case.</p>
-:ET
